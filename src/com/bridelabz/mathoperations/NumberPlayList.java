@@ -52,6 +52,13 @@ public class NumberPlayList {
 				System.out.println(n);
 			});
 			
+			//6
+			Function<Integer ,Double> toDoubleFunction=Integer::doubleValue;
+	
+			myNuberList.forEach(n->{
+			System.out.println(toDoubleFunction.apply(n));
+					});
+			
 			
 			
 			
