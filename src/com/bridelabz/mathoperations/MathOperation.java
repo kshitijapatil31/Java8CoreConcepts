@@ -16,6 +16,10 @@ public static void main(String[] args) {
 		
 		
 		
+		IMathFunction.printResult(2,5,"addition",add);
+		IMathFunction.printResult(2,5,"addition",add);
+		IMathFunction.printResult(2,5,"Division",div);
+		
 	}
 
 }
