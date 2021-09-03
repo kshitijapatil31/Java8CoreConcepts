@@ -59,7 +59,11 @@ public class NumberPlayList {
 			System.out.println(toDoubleFunction.apply(n));
 					});
 			
-			
+			//7
+			Predicate<Integer>isEvenFunction=n-> n>0 && n%2==0;
+			myNuberList.forEach(n->{
+				System.out.println("Foreach value of"+n+isEvenFunction.test(n));
+			});
 			
 			
 			
